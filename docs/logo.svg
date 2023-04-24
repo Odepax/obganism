@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient id="LG" x1="21.5" y1="12.5" x2="36.5" y2="50" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ef175e"/>
+			<stop offset="1" stop-color="#fdbe11"/>
+		</linearGradient>
+	</defs>
+	<circle cx="32" cy="32" r="32" fill="#1f1c21"/>
+	<g style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round">
+		<circle cx="32" cy="32" r="15"/>
+		<path d="M 12.49,35.4 45.735,14.755 30.973,51 21.6134,13 51.5194,38.241 Z"/>
+	</g>
+	<g style="fill:none;stroke:url(#LG);stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
+		<path d="M 32.41,36.85 27.3896,36.48464"/>
+		<path d="m 23.2,36.18 -10.714,-0.77973 9.1253,-5.6668"/>
+		<path d="m 25.18,27.51 4.2787,-2.6571"/>
+		<path d="m 33.03,22.64 12.698,-7.8857 -5.6385,13.844"/>
+		<path d="M 45.76,37.98 A 15,15 0 0 1 32.922,46.9702"/>
+		<path d="M 25.5,45.52 A 15,15 0 0 1 17.5323,35.9582"/>
+		<path d="M 17.71,27.45 A 15,15 0 0 1 34.271,17.171"/>
+		<path d="m 43.1,21.91 a 15,15 0 0 1 3.5797,7.017"/>
+		<path d="M 38.51,32.49 30.973,50.996 24.3446,24.085 m -2.0704,-8.4058 -0.66088,-2.6832 2.2038,1.86 m 3.6172,3.0529 24.085,20.328 -14.908,-1.0849"/>
+	</g>
+	<circle cx="47.89" cy="46.5" r="5.5" stroke-width="6"/>
+	<circle cx="16.24" cy="46.5" r="2.5" fill="#f0e0b2" stroke="#000000" stroke-width="2"/>
+	<g style="stroke:#f0e0b2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
+		<path d="M 45.89,48.01 A 2.5,2.5 0 0 1 45.8852302,45.0024"/>
+		<path d="m 49.88,44.99 a 2.5,2.5 0 0 1 0.0032527,3.0064"/>
+	</g>
+</svg>
