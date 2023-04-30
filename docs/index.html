@@ -17,7 +17,7 @@
 		<meta name="description" content="How not to write a parser, indefinite edition."/>
 		<meta property="og:description" content="How not to write a parser, indefinite edition."/>
 		<meta name="twitter:card" content="summary_large_image"/>
-		<meta name="theme-color" content="#f76f36"/> <!-- TODO: change -->
+		<meta name="theme-color" content="#e35730"/>
 
 		<style>
 			@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500&display=swap");
@@ -26,9 +26,9 @@
 				--BACKGROUND: #1f1c21;
 				--FOREGROUND: #f0e0b2;
 				--SHADOW: #000000;
-				--PINK: #ef175e; /* TODO: change */
-				--ORANGE: #f76f36; /* TODO: change */
-				--GOLD: #fdbe11; /* TODO: change */
+				--ACCENT-1: #fdbe11;
+				--ACCENT-2: #e35730;
+				--ACCENT-3: #8149ca;
 			}
 			* {
 				margin: 0;
@@ -69,6 +69,18 @@
 				font-size: 24px;
 				font-weight: 300;
 			}
+			nav {
+				padding: 64px;
+				text-align: center;
+			}
+			a {
+				display: inline-block;
+				padding: 0 16px;
+				color: var(--ACCENT-3);
+			}
+			a:hover, a:focus {
+				color: var(--ACCENT-1);
+			}
 		</style>
 	</head>
 	<body>
@@ -79,6 +91,10 @@
 				<strong>How not to write a parser, indefinite edition.</strong>
 			</p>
 		</header>
+		<nav>
+			<a href="https://github.com/Odepax/obganism/discussions">Discussions</a>
+			<a href="https://github.com/Odepax/obganism/issues">Issues</a>
+		</nav>
 		<footer>
 			<p>
 				Copyright &copy; 2019 Odepax

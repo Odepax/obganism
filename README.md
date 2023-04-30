@@ -4,4 +4,4 @@ Obganism
 Installation
 ----
 
-Install the [Obganism](https://www.nuget.org/packages/Obganism) NuGet package.
+Install the [Odepax.Obganism](https://www.nuget.org/packages/Odepax.Obganism) NuGet package.
